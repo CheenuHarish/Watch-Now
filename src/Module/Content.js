@@ -13,7 +13,7 @@ import axios from "axios"
 
     return (
         <div className="card p-4" Style="background-color:#DDDDDD">
-            <div className="d-flex flex-row justify-content-end">
+            <div className="navbar d-flex flex-row justify-content-end">
                 <h4 className="m-3">Page No:{no}</h4>
                 <h4 className="m-3">Total Results:{data.total_results}</h4>
                 <button className="btn btn-outline-success m-3" onClick={e=>no>0?setNo(no-1):setNo(0)}>Previous</button>
