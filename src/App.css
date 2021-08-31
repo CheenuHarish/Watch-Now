@@ -1,0 +1,14 @@
+.root{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.searchBtn{
+    margin-left: 5px;
+    font-size: x-large;
+}
+.Card{
+    width: 18rem;
+}
+.Card-Img{
+    width: auto;
+    margin: 1.5em;
+}

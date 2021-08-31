@@ -1,16 +1,14 @@
-import React,{useState} from "react"
+import React from "react"
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import Search from './Module/search'
+import "./App.css"
 import Content from './Module/Content'
 import Footer from "./Module/Footer"
 function App() {
-  const[search,setSearch] = useState("")
   
   return (
     <div className="container " >
      <h1 className="text-center">Watch Now</h1>
-     <Search val={setSearch} /><br/>
-     <Content val2={search}/>
+     <Content/>
      <Footer/>
     </div>
   );
